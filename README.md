@@ -34,7 +34,7 @@ Mutation parameters:
 
 **Vote to a proposal:**
 
-- vote: Is the total vote count, between 0 to 5.
+- vote: Is the total vote count, between 0 and 5.
 
 ```
 mutation {
@@ -44,7 +44,7 @@ mutation {
 }
 ```
 
-**Comment to a proposal:**
+**Comment on a proposal:**
 
 - comment: Is the comment text.
 
@@ -108,9 +108,9 @@ mutation {
 
 ```
 
-**Comment a Post**
+**Comment on a Post**
 
-- postId: Is the post's ids which the comment is for.
+- postId: Is the post's id which the comment is for.
 
 - text: Is the comment text.
 
